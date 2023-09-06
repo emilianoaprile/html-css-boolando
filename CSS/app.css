@@ -61,21 +61,30 @@
 }
 
 .sale {
-    background-color: red;
+    background-color: rgba(242, 38, 19, 0.8);
     position: absolute;
     bottom: 20px;
-    left: 0;
+    left: 3px;
+    line-height: 25px;
+    padding: 0px 5px;
+    color: white;
+    border-radius: 5px;
+
 }
 
 .sostenibilità {
-    background-color: green;
+    background-color: rgba(38, 194, 129, 0.8);
     position: absolute;
     bottom: 20px;
-    left: 50px;
+    left: 53px;
+    line-height: 25px;
+    padding: 0px 5px;
+    color: white;
+    border-radius: 5px;
 }
 
 .hearts {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     font-size: 28px;
     width: 30px;
     height: 30px;
@@ -83,6 +92,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    border-radius: 5px;
 }
 
 
