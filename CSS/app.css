@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1040px;
     margin: 0 auto;
 }
 
@@ -20,27 +20,57 @@ body {
     justify-content: center;
 }
 
-.space-between {
+.row-header {
     display: flex;
     justify-content: space-between;
+    
+}
+
+.row-footer {
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .col-3 {
     flex-basis: calc((100% / 12) * 3);
-    /* background-color: blue; */
-    min-height: 500px;
-    /* border: 1px solid black; */ 
 } 
 
+
 .card-section {
-    padding: 35px;
+    padding: 35px 0;
 }
+
+
 
 /* HEADER */
 
 .page-header {
-    height: 100px;
-    background-color: orange;
+    background-color: #FE6901;
+}
+
+ul, li, .header-menu {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu-item > a {
+    display: block;
+	padding: 0 16px;
+	line-height: 50px;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.items-center {
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    display: block;
 }
 
 /* MAIN */
@@ -153,14 +183,23 @@ body {
     color: gray;
 }
 
-
-
-
-
-
 /* FOOTER */
 
 .page-footer {
-    height: 100px;
     background-color: black;
+    padding: 40px;
+    border-bottom: 1px solid white;
+}
+
+.nome-azienda, .CTA {
+    color: white;
+}
+
+.menu-item-footer > a {
+    
+    padding: 0px 16px 0px 0px;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+
 }
