@@ -25,7 +25,7 @@
     flex-basis: calc((100% / 12) * 3);
     /* background-color: blue; */
     min-height: 500px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
 } 
 
@@ -51,7 +51,7 @@
 } */
 
 .product-info {
-    background-color: red;
+    /* background-color: red; */
     min-height: 99px;
     width: 100%;
 }
@@ -94,6 +94,19 @@
     right: 0;
     border-radius: 5px;
 }
+
+.product-info {
+    line-height: 20px;
+}
+
+.info-clothes {
+    display: block;
+}
+
+.previous-price {
+    text-decoration: line-through;
+}
+
 
 
 
