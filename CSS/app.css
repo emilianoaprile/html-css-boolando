@@ -23,7 +23,7 @@
 
 .col-3 {
     flex-basis: calc((100% / 12) * 3);
-    background-color: blue;
+    /* background-color: blue; */
     min-height: 500px;
     border: 1px solid black;
     
