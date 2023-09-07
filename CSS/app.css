@@ -71,6 +71,12 @@ ul, li, .header-menu {
 .logo {
     width: 100px;
     display: block;
+    margin-right: 60px;
+}
+
+.icon-line span > a {
+    padding: 10px;
+    color: white;
 }
 
 /* MAIN */
@@ -189,6 +195,7 @@ ul, li, .header-menu {
     background-color: black;
     padding: 40px;
     border-bottom: 1px solid white;
+    line-height: 40px;
 }
 
 .nome-azienda, .CTA {
@@ -199,6 +206,15 @@ ul, li, .header-menu {
     
     padding: 0px 16px 0px 0px;
     font-size: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.menu-icon-footer > a {
+    
+    padding: 0px 10px 0px 0px;
+    font-size: 15px;
     text-decoration: none;
     color: white;
 
